@@ -1,0 +1,90 @@
+
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: darkred;
+}
+
+.header {
+    padding: 20px;
+    font-family: Arial;
+    background-color:darkred;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+a {
+    color: red;
+}
+
+p {
+    font-size: 31px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.items {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.section {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    
+}
+
+footer {
+    padding: 25px;
+    font-family: sans-serif;
+    text-align:left;
+}
+
+footer h2 {
+    font-size:18px;
+}
+
+#h2 nav ul li {
+    display: inline-block;
+}
